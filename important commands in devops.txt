@@ -1,0 +1,2 @@
+userdel username to delete the current user 
+adduser to add a  user 

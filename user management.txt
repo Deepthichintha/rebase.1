@@ -1,0 +1,36 @@
+user management:
+
+we have two types of users they are:
+ 1.noramal user
+ 2.root user
+
+in user management if we want to add a user we can give the command 
+      adduser: it will create a user along with password. and respected directory will be created.
+      useradd: it will create a user without a password. and it wont't create the directory aswell
+               if we want to give password to a user created by the command useradd
+                      enter : passwd username
+                      it will create the password for the user.
+ls -l : it will show weather the created users files or a directory
+how can we check?
+ if the line starts with
+-.......it means its a file
+d.......it means its a directory
+l.......it means its a link
+     after creating the username we have to go to the home by command
+        cd /home
+   so that we can check weather the directory is created or not .
+
+after that 
+                   uid=1006(surya) gid=1012(anil1) groups=1012(anil1),100(users),1004(doom1)
+              1. user id (user owner)
+              2. group id (group owner)
+              3. groups
+  if we wants to create a groupname 
+we can give the command groupadd groupname.
+               if we wants to add the group 
+             we have the command 
+                     usermod -aG groupname username
+         if we wants to change the groupid name 
+                     usermod -g groupname username
+         if wants to change the userid name 
+                     usermod -l newusername username

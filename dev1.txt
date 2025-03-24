@@ -1,0 +1,113 @@
+what is operating system ?
+
+An Operating System (OS) is system software that manages computer hardware, software resources, and provides essential services for computer programs. It acts as an interface between the user and the computer hardware.
+
+Examples of Operating Systems:
+1.Windows (Windows 10, Windows 11)
+2.macOS (Monterey, Ventura)
+3.Linux (Ubuntu, Fedora)
+4.Android (Mobile OS)
+5.iOS (Apple’s mobile OS)
+  
+what is linux ?
+linux is a free and open source operating system.
+
+Key Features of Linux:
+1.Open Source – Free to use, modify, and distribute.
+2.Multi-User & Multi-Tasking – Supports multiple users and tasks simultaneously.
+3.Security – Strong user permissions, firewalls, and encryption.
+4.Stability – Rarely crashes and performs well under heavy loads.
+5.light weight
+6.hard to hacking
+
+linux types:
+
+we have two types of linux operating systems there are
+     1.rpm (redhat package management)
+        Ex:
+           1.red hat
+           2.centos
+           3.fedora
+           4.amozon linux
+           5.open suse
+      2.debian based linux os
+         Ex:
+           1. debian
+           2. kali linux
+           3. ubuntu
+
+Devops stages?
+
+what is devops?
+
+DevOps is a set of practices, principles, and tools that combines development (Dev) and operations (Ops) to improve software development and delivery. It emphasizes automation, collaboration, continuous integration/continuous deployment (CI/CD), and monitoring to ensure faster and more reliable software releases.
+
+1. Plan 📝
+Teams plan the project, define requirements, and set goals using tools like Jira or Trello.
+it deliver the plan to the clint.
+
+2. Develop 💻 (or) code
+Developers write and test code using Git for version control. They collaborate and ensure the code meets standards.
+where we need to store the code.
+we have two types in this:
+1.cvcs(centralised version control system)
+is a system where all version history and files are stored in a central server. 
+Ex: subversion
+2.dvcs(distributed version control system)
+allows every developer to have a complete copy of the repository, including its full history. 
+Ex: git hub.
+3. Build 🔨
+The code is compiled and built into executable files.
+build tools:
+   1. java: mavan ant graddle
+   2. python :pip
+   3. node js: npm
+   4. dart:flutter
+   5. .net: msbuild
+
+4. Test ✅
+Automated tests run to check for bugs and performance issues.
+
+ SAST(static application security testing): it test the software when it is in the constant stage.
+ white-box-testing - Examines the source code before execution.
+ Ex:sonarque
+ DAST(dynamic application security testing): it test the software when it is in running stage.
+ Black-box testing – Tests the application while running.
+ Ex:OWASP 
+
+5. Release 🚀
+It integrates all the stages here. it sends the software to the outside world.
+Ex: Jenkins 
+
+6. Deploy 🌍
+The Deploy Stage is where the tested application is moved to a staging or production environment so users can access it. 
+It deploy the application into server.
+Ex: AWS ,AZURE 
+
+7. Operate 🛠️
+The deployed application is monitored for performance and stability. and it will check whether the software running smoothly 
+EX: ansible , terraform.
+
+8. Monitor & Feedback 📊
+Logs and feedback are collected for continuous improvement
+Ex: Prometheus,Grafana,datadog,watchcloud.
+
+🔄 This cycle repeats to ensure continuous improvement and delivery.  
+
+ What are the duties of devops?
+  A DevOps Engineer is responsible for bridging the gap between development and operations teams by implementing automation, monitoring, and collaboration tools. Their main goal is to ensure faster, reliable, and efficient software delivery.
+
+
+1. what is devops?
+2. devops stages?
+3. horizontal and vertical scaling?
+4. what is deployment?
+5. what is ci/cd?
+6. self intro?
+ 
+
+1. what is devops?
+ans: devops is a software engineering methodology which is used to combine both developer and operation stage to deliver software fastly and reliably.
+
+3. horizontal scaling?
+ans: Horizontal scaling (also called scale-out) is the process of adding more machines or instances to a system to distribute the load and improve performance, rather than upgrading the existing machines (which is called vertical scalin

@@ -1,0 +1,45 @@
+ping :
+
+The ping command is used to test network connectivity between two devices. It helps diagnose network issues by checking whether a remote host is reachable and measuring the response time.
+
+Use Cases
+✅ Check Internet Connectivity
+✅ Troubleshoot Network Issues
+✅ Measure Network Latency (Ping Time)
+✅ Test DNS Resolution
+  
+
+ifconfig:
+
+
+The ifconfig (interface configuration) command is used in Unix-based operating systems (like Linux and macOS) to configure and manage network interfaces. It provides information about network interfaces and allows administrators to configure IP addresses, enable or disable interfaces, and troubleshoot network issues.
+
+
+ip addr show:
+
+It looks like you're referring to ip addr show, which is a command used in Linux to display network interface details, including IP addresses.
+
+
+dig:
+
+Purpose of the dig Command in Linux:
+
+The dig (Domain Information Groper) command is used for querying DNS (Domain Name System) servers. It helps retrieve domain-related information like IP addresses, name servers, and mail servers. It is commonly used for troubleshooting DNS issues.
+
+traceroute:
+
+traceroute Command in Linux
+The traceroute command is used to trace the path that network packets take to reach a destination. It helps identify network latency, bottlenecks, and connectivity issues by showing each hop (router) along the route to a given IP or domain.
+
+
+curl:
+
+curl Command in Linux
+The curl (Client URL) command is used to transfer data from or to a server using different protocols such as HTTP, HTTPS, FTP, SCP, and more. It is commonly used for testing APIs, downloading files, and interacting with web services.
+
+
+wget:
+
+Purpose of the wget Command in Linux
+The wget command is used to download files from the internet using protocols like HTTP, HTTPS, and FTP. It is a non-interactive command, meaning it can run in the background without requiring user input, making it ideal for automated downloads.
+
